@@ -11,9 +11,7 @@ public class SportMan {
 	private String sport_Salary;
 
 	public SportMan() {
-		
 	}
-
 	public SportMan(int sportMan_id, String sport_Name, String sport_Salary) {
 		super();
 		this.sportMan_id = sportMan_id;
