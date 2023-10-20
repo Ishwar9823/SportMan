@@ -1,0 +1,6 @@
+com\cg\controller\Controller.class
+com\cg\repository\Repository1.class
+com\cg\Dao\sportManDao.class
+com\cg\entity\SportMan.class
+com\cg\service\ServiceSport.class
+com\cg\SportManApplication.class
