@@ -8,11 +8,11 @@ public class SportMan {
 	@Id
 	private int sportMan_id;
 	private String sport_Name;
-	private String sport_Salary;
+	private double sport_Salary;
 
 	public SportMan() {
 	}
-	public SportMan(int sportMan_id, String sport_Name, String sport_Salary) {
+	public SportMan(int sportMan_id, String sport_Name, double sport_Salary) {
 		super();
 		this.sportMan_id = sportMan_id;
 		this.sport_Name = sport_Name;
@@ -35,11 +35,11 @@ public class SportMan {
 		this.sport_Name = sport_Name;
 	}
 
-	public String getSport_Salary() {
+	public double getSport_Salary() {
 		return sport_Salary;
 	}
 
-	public void setSportName_Salary(String sport_Salary) {
+	public void setSportName_Salary(double sport_Salary) {
 		this.sport_Salary = sport_Salary;
 	}
 
